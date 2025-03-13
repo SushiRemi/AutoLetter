@@ -1,0 +1,97 @@
+{
+    "summary": "I am a passionate and motivated software engineer with a strong drive for innovation and problem-solving. I thrive on tackling complex challenges and continuously expanding my skill set to build efficient, scalable, and impactful solutions. With a keen eye for detail and a collaborative mindset, I am always eager to learn, grow, and contribute to projects that make a difference. My enthusiasm for technology, combined with a results-driven approach, fuels my commitment to delivering high-quality work and staying ahead in the ever-evolving tech landscape.",
+    "lastName": "Tower",
+    "locationName": "United States",
+    "student": false,
+    "geoCountryName": "United States",
+    "geoCountryUrn": "urn:li:fs_geo:103644278",
+    "geoLocationBackfilled": false,
+    "elt": true,
+    "firstName": "Johnathon",
+    "entityUrn": "urn:li:fs_profile:ACoAAFg-sw4Brp2hO3K-9vCUXYDw6BPXFhPH8QY",
+    "geoLocation": {
+        "geoUrn": "urn:li:fs_geo:103918656"
+    },
+    "geoLocationName": "San Diego, California",
+    "location": {
+        "basicLocation": {
+            "countryCode": "us"
+        }
+    },
+    "headline": "Student at SDSU College of Sciences",
+    "profile_id": "ACoAAFg-sw4Brp2hO3K-9vCUXYDw6BPXFhPH8QY",
+    "profile_urn": "urn:li:fs_miniProfile:ACoAAFg-sw4Brp2hO3K-9vCUXYDw6BPXFhPH8QY",
+    "member_urn": "urn:li:member:1480504078",
+    "public_id": "johnathon-tower-23a999353",
+    "experience": [
+        {
+            "locationName": "San Diego, California, United States",
+            "entityUrn": "urn:li:fs_position:(ACoAAFg-sw4Brp2hO3K-9vCUXYDw6BPXFhPH8QY,2587006531)",
+            "geoLocationName": "San Diego, California, United States",
+            "geoUrn": "urn:li:fs_geo:103918656",
+            "companyName": "Health",
+            "timePeriod": {
+                "endDate": {
+                    "month": 3,
+                    "year": 2023
+                },
+                "startDate": {
+                    "month": 12,
+                    "year": 2022
+                }
+            },
+            "description": "Developed and maintained secure, HIPAA-compliant web applications that improved patient data accessibility for healthcare providers.\nDesigned and optimized RESTful APIs for seamless integration with electronic health records (EHR) systems, reducing data retrieval time by 30%.\nLed the migration of legacy systems to a modern cloud-based architecture, enhancing system scalability and reliability.\nImplemented real-time health monitoring dashboards using React and Node.js, enabling faster decision-making for medical professionals.\nCollaborated cross-functionally with data scientists and clinicians to develop predictive analytics tools for patient risk assessment.",
+            "title": "Software Engineer Intern",
+            "region": "urn:li:fs_region:(us,0)"
+        }
+    ],
+    "education": [
+        {
+            "entityUrn": "urn:li:fs_education:(ACoAAFg-sw4Brp2hO3K-9vCUXYDw6BPXFhPH8QY,1064759711)",
+            "school": {
+                "objectUrn": "urn:li:school:5124001",
+                "entityUrn": "urn:li:fs_miniSchool:5124001",
+                "active": true,
+                "schoolName": "SDSU College of Sciences",
+                "trackingId": "2rAw6lzpS0yvQ4r0OURwKw==",
+                "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEbzYSx8xvHbA/company-logo_"
+            },
+            "grade": "3.6",
+            "timePeriod": {
+                "endDate": {
+                    "year": 2026
+                },
+                "startDate": {
+                    "year": 2020
+                }
+            },
+            "fieldOfStudyUrn": "urn:li:fs_fieldOfStudy:100189",
+            "degreeName": "Bachelor of Science - BS",
+            "schoolName": "SDSU College of Sciences",
+            "fieldOfStudy": "Computer Science",
+            "degreeUrn": "urn:li:fs_degree:400",
+            "schoolUrn": "urn:li:fs_miniSchool:5124001"
+        }
+    ],
+    "languages": [],
+    "publications": [],
+    "certifications": [],
+    "volunteer": [],
+    "honors": [],
+    "projects": [],
+    "skills": [
+        {
+            "name": "Software Development"
+        },
+        {
+            "name": "Python (Programming Language)"
+        },
+        {
+            "name": "Java"
+        },
+        {
+            "name": "Application Programming Interfaces (API)"
+        }
+    ],
+    "urn_id": "ACoAAFg-sw4Brp2hO3K-9vCUXYDw6BPXFhPH8QY"
+}
