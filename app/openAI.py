@@ -14,7 +14,7 @@ if os.path.exists(times_new_roman_path):
     pdfmetrics.registerFont(TTFont('Times New Roman', times_new_roman_path))
 
 client = OpenAI(
-    api_key ="replace with key lol, git doesn't allow"
+    api_key ="replace with key lol, git doesn't allow api key commits"
 )
 
 # ^^ this is my key, you can use it or use yours ^0^
