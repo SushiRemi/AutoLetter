@@ -4,10 +4,9 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <div className="text-4xl font-bold"> Welcome to Autoletter! (A LinkedIn API agent)</div>
+        <div className="text-4xl font-bold"> Welcome to AutoLetter! (A LinkedIn API agent)</div>
         <div className="flex flex-row items-center gap-10 max-w-200"> 
           <Image
-            //className="dark:invert" //turn off inverting when dark
             src="/lia.pi-logo.jpg"
             alt="LIA.pi logo"
             width={500}
@@ -16,16 +15,17 @@ export default function Home() {
           />
           <p className="description">
             AutoLetter is an AI Agent that assists in the job application process by creating cover letters for you! 
-            By logging into your LinkedIn account, the agent is able to read your resume/job experience portfolio, as well as 
-            jobs reccomended to you to easily create cover letters for your application.
+            By logging into your LinkedIn account, the agent can read your resume/job experience portfolio and
+            recommend jobs for you to easily create personalized cover letters.
           </p>
         </div>
+
         <h2 className="text-2xl">
           How to use AutoLetter:
         </h2>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li>Login to your LinkedIn Account</li>
-          <li>Choose from a list of reccomended jobs</li>
+          <li>Choose from a list of recommended jobs</li>
           <li>Review and download the generated cover letter(s)!</li>
         </ol>
 
@@ -45,6 +45,7 @@ export default function Home() {
             />
             Start
           </a>
+
           <a
             className="rounded-full border border-solid border-black/[.3] dark:border-white/[.3] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
@@ -56,37 +57,38 @@ export default function Home() {
         </div>
 
         <div className="flex flex-row gap-8 row-start-2 justify-center items-center w-full">
-            <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md w-[40vw]">
-                <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Login To LinkedIn</h2>
-                <form action="#" method="POST">
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Email:</label>
-                    <input 
-                        type="email" 
-                        id="email" 
-                        name="email" 
-                        required 
-                        className="w-full p-2 mt-1 border border-gray-300 dark:border-gray-600 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                    />
-                    
-                    <label htmlFor="password" className="block mt-3 text-sm font-medium text-gray-700 dark:text-gray-300">Password:</label>
-                    <input 
-                        type="password" 
-                        id="password" 
-                        name="password" 
-                        required 
-                        className="w-full p-2 mt-1 border border-gray-300 dark:border-gray-600 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
-                    />
-                    
-                    <button 
-                        type="submit" 
-                        className="w-full mt-4 p-2 bg-green-600 text-white rounded-md hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-400"
-                    >
-                        Login
-                    </button>
-                </form>
-            </div>
+          <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md w-[40vw]">
+            <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Login To LinkedIn</h2>
+            <form action="#" method="POST">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Email:</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                required 
+                className="w-full p-2 mt-1 border border-gray-300 dark:border-gray-600 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+              />
+
+              <label htmlFor="password" className="block mt-3 text-sm font-medium text-gray-700 dark:text-gray-300">Password:</label>
+              <input 
+                type="password" 
+                id="password" 
+                name="password" 
+                required 
+                className="w-full p-2 mt-1 border border-gray-300 dark:border-gray-600 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+              />
+
+              <button 
+                type="submit" 
+                className="w-full mt-4 p-2 bg-green-600 text-white rounded-md hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-400"
+              >
+                Login
+              </button>
+            </form>
+          </div>
         </div>
       </main>
+
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
