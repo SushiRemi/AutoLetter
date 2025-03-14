@@ -4,45 +4,54 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-	<div className="text-4xl font-bold"> Welcome to LIA.pi! (A LinkedIn API agent)</div>
-        <Image
-          className="dark:invert"
-          src="/lia.pi-logo.jpg"
-          alt="LIA.pi logo"
-          width={500}
-          height={38}
-          priority
-        />
+        <div className="text-4xl font-bold"> Welcome to Autoletter! (A LinkedIn API agent)</div>
+        <div className="flex flex-row items-center gap-10 max-w-200"> 
+          <Image
+            //className="dark:invert" //turn off inverting when dark
+            src="/lia.pi-logo.jpg"
+            alt="LIA.pi logo"
+            width={500}
+            height={38}
+            priority
+          />
+          <p className="description">
+            AutoLetter is an AI Agent that assists in the job application process by creating cover letters for you! 
+            By logging into your LinkedIn account, the agent is able to read your resume/job experience portfolio, as well as 
+            jobs reccomended to you to easily create cover letters for your application.
+          </p>
+        </div>
+        <h2 className="text-2xl">
+          How to use AutoLetter:
+        </h2>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            We can generate a cover letter for you.
-          </li>
-          <li>We can curate job applications/listing just for you.</li>
+          <li>Login to your LinkedIn Account</li>
+          <li>Choose from a list of reccomended jobs</li>
+          <li>Review and download the generated cover letter(s)!</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+            className="rounded-full border border-solid border-black/[.9] dark:border-white/[.9] transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-              className="dark:invert"
+              className="invert-100 dark:invert-0"
               src="/vercel.svg"
               alt="Vercel logomark"
               width={20}
               height={20}
             />
-            Deploy now
+            Start
           </a>
           <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            className="rounded-full border border-solid border-black/[.3] dark:border-white/[.3] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read our docs
+            Documentation
           </a>
         </div>
       </main>
