@@ -54,6 +54,38 @@ export default function Home() {
             Documentation
           </a>
         </div>
+
+        <div className="flex flex-row gap-8 row-start-2 justify-center items-center w-full">
+            <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md w-[40vw]">
+                <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">Login To LinkedIn</h2>
+                <form action="#" method="POST">
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Email:</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required 
+                        className="w-full p-2 mt-1 border border-gray-300 dark:border-gray-600 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                    />
+                    
+                    <label htmlFor="password" className="block mt-3 text-sm font-medium text-gray-700 dark:text-gray-300">Password:</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        required 
+                        className="w-full p-2 mt-1 border border-gray-300 dark:border-gray-600 rounded-md bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                    />
+                    
+                    <button 
+                        type="submit" 
+                        className="w-full mt-4 p-2 bg-green-600 text-white rounded-md hover:bg-green-700 dark:bg-green-500 dark:hover:bg-green-400"
+                    >
+                        Login
+                    </button>
+                </form>
+            </div>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
